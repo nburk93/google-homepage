@@ -56,11 +56,11 @@ a {
 #main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 200px 70px 70px 200px;
+    grid-template-rows: 250px 70px 70px 250px;
     grid-template-areas: 
     ". logo ."
     ". search ."
-    ". search-button feeling-lucky"
+    ". flexbox ."
     ". . ."
     ;
 }
@@ -70,6 +70,10 @@ a {
 }
 #search {
     grid-area: search;
+}
+#flexbox {
+    display: flexbox;
+    grid-area: flexbox;
 }
 #search-button {
     grid-area: search-button;
